@@ -1,0 +1,1 @@
+A simple ASP.NET MVC application where users can log-in and add/edit contacts. I built this as a demo for a web company I'm applying last year. The application was written in C#, backbone.js on the front-end and SQL database.

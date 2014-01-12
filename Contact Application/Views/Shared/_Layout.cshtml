@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="csrf" content="64210e068d3df86d44654da5425d24abf02baef7"/>
+
+        <title>@ViewBag.Title - Contact Application</title>
+        <link rel="stylesheet" href="~/app/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="~/app/css/style-j.css"/>
+        <link rel="stylesheet" type="text/css" href="~/app/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="~/app/css/bootstrap-responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="~/app/css/docs.css"/>
+        
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+      
+        <header class="header" id="header">
+        <!-- here we are going to include the navigation bar -->
+        <div class="main-menu">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+                        <div id="loader" class="loading"></div>
+                        <a class="brand" id="brand" href="#/index">Contact Application</a>
+                        <div class="nav-collapse">
+                          <div class="menu" id="menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="head container-fluid" id="head"></div>
+        <div class="container">
+            <div class="main container">
+               <section class="content-wrapper main-content clear-fix">
+                    @RenderBody()
+                </section>
+            </div>
+        </div>
+        <div id="modal"></div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ContactApplication">
+  <DataContextMoniker Name="/ContactApplicationDataContext" />
+  <nestedChildShapes>
+    <classShape Id="79d7151b-735b-4001-8f73-2fd0859ae40e" absoluteBounds="1.25, 1.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/ContactApplicationDataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10d7daa4-2493-4696-a91b-ab634323d890" absoluteBounds="1.2650000000000001, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c05bdd36-6833-4fd5-8bd4-67a368a053b7" absoluteBounds="5.125, 1.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/ContactApplicationDataContext/Relationship" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cb50544-2f8a-4fea-a465-f9468458179e" absoluteBounds="5.14, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 2.34699625651042); (3.25 : 2.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ContactApplicationDataContext/Relationship/Relationship_Contact" />
+      <nodes>
+        <classShapeMoniker Id="c05bdd36-6833-4fd5-8bd4-67a368a053b7" />
+        <classShapeMoniker Id="79d7151b-735b-4001-8f73-2fd0859ae40e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

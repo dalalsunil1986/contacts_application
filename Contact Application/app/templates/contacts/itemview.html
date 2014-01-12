@@ -1,0 +1,14 @@
+    <!--template for one contact-->
+    <article class="contact-container">
+        <img src="<%=imageurl%>" alt="<%=contactid%>"/>
+        <h1><%=firstname%> <%=lastname%><span><%=relationship%></span></h1>
+        <div><%=phone%></div>
+        <dl>
+            <dt>Address:</dt><dd><%=address%></dd>
+            <dt>Country:</dt><dd><%=country%></dd>
+        </dl>
+        <div class="controls">
+           <button class="btn btn-large primary" type="submit" name="edit">Edit</button>
+           <button class="btn btn-large primary" type="submit" name="delete">delete</button>
+        </div>
+    </article>
